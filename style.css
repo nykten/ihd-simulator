@@ -14,8 +14,8 @@ body {
 
 /* Main box: centered with border */
 #main {
-	width: min(100%, 600px);
-  height: 400px;
+	width: min(100%, 620px);
+  height: 420px;
   box-sizing: border-box;
 	padding: 1px;
 	border: 1px solid #333;
@@ -37,7 +37,7 @@ body {
 
 }
 .ihd-screen {
-  height: min(85%);
+  height: min(83%);
   box-sizing: border-box;
 	padding: 12px;
 	background: #333;
@@ -74,4 +74,30 @@ body {
 
 #left-arrow{
   color: #fff;
+}
+
+.ihd-lights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.ihd-lights div {
+  width: 70px;
+  height: 12px;
+  margin: 0px 10px 0 10px;
+  border-radius: 5px;
+}
+
+#greenlight {
+  background-color: green;
+}
+
+#amberlight {
+  background-color: orange;
+}
+
+#redlight {
+  background-color: tomato;
 }
